@@ -31,8 +31,8 @@
 <div class="p-10">
      <nav class="flex items-center justify-around">
     <div class="w-96"><img src="icons/logo.png" alt=""></div>
-    <div>
-        <ul class="text-[#3C3C3C] text-xl flex gap-14">
+    <div class="hidden md:block">
+        <ul class="text-[#3C3C3C] text-xl flex gap-14 ">
             <li>Home</li>
             <li>Product</li>
             <li>About us</li>
@@ -65,7 +65,7 @@
  </div>
     </header>
 
-    <main class="lg:max-w-6xl mx-auto md:p-11">
+    <main class="lg:max-w-6xl mx-auto md:p-11 sm:items-center">
 <!-- women jacket section -->
  <section class="items-center">
     <h3 class=" my-8 text-5xl uppercase text-[#363958] font-bebas-neue">Woman Jacket</h3>
@@ -225,14 +225,14 @@
 </section>
     </main>
 
-    <footer>
+    <footer class="my-11">
 <!-- contact section -->
- <div class="p-32 flex justify-between items-center">
+ <div class="md:p-32 flex justify-between items-center md:flex-row flex-col-reverse m-2">
    <!-- contact -->
-   <div>
-    <div class="w-3/4 my-5">
-        <div class="bg-[#FFFFFF] drop-shadow-2xl flex items-center p-4 gap-7 rounded-xl">
-            <div class="w-1/6 border rounded-xl border-slate-200">
+   <div class="sm:w-full">
+    <div class="md:w-3/4 my-5 text-center ">
+        <div class="bg-[#FFFFFF] drop-shadow-2xl md:flex items-center p-4 gap-7 rounded-xl">
+            <div class="md:w-1/6 w-2/5 md:border rounded-xl border-slate-200 ">
             <img src="icons/house.png" alt="">
         </div>
         <div>
@@ -242,9 +242,9 @@
         </div>
     </div>
     </div>
-    <div class="w-3/4 my-5">
-        <div class="bg-[#FFFFFF] drop-shadow-2xl flex items-center p-4 gap-7 rounded-xl">
-            <div class="w-1/6 border rounded-xl border-slate-200">
+    <div class="md:w-3/4 my-5 text-center">
+        <div class="bg-[#FFFFFF] drop-shadow-2xl md:flex items-center p-4 gap-7 rounded-xl">
+            <div class="md:w-1/6 w-2/5 md:border rounded-xl border-slate-200">
             <img src="icons/box.png" alt="">
         </div>
         <div>
@@ -254,9 +254,9 @@
         </div>
     </div>
     </div>
-    <div class="w-3/4 my-5">
-        <div class="bg-[#FFFFFF] drop-shadow-2xl flex items-center p-4 gap-7 rounded-xl">
-            <div class="w-1/6 border rounded-xl border-slate-200">
+    <div class="md:w-3/4 my-5 text-center">
+        <div class="bg-[#FFFFFF] drop-shadow-2xl md:flex items-center p-4 gap-7 rounded-xl">
+            <div class="md:w-1/6 w-2/5 md:border rounded-xl border-slate-200">
             <img src="icons/question.png" alt="">
         </div>
         <div>
@@ -267,7 +267,7 @@
     </div>
     </div>
    </div>
-    <div class="w-5/12 border rounded-lg border-slate-300"><img src="images/shopping.png" alt=""></div>
+    <div class="md:w-5/12 md:border rounded-lg border-slate-300"><img src="images/shopping.png" alt=""></div>
  </div>
     </footer>
 </body>
